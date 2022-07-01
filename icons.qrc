@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.png</file>
+        <file>book.png</file>
+        <file>book1.png</file>
+        <file>book2.png</file>
+        <file>book3.png</file>
+        <file>login-book.png</file>
+        <file>loadingBook.gif</file>
+        <file>book4.png</file>
+        <file>book5.jpg</file>
+        <file>book6.jpg</file>
+        <file>book7.jpg</file>
+        <file>book8.png</file>
+        <file>book9.jpg</file>
+        <file>book10.jpg</file>
+        <file>book11.jpg</file>
+        <file>book12.jpg</file>
+        <file>book13.jpg</file>
+        <file>book14.jpg</file>
+        <file>book15.jpg</file>
+        <file>book16.jpg</file>
+    </qresource>
+</RCC>
