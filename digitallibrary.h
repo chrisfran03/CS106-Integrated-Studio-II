@@ -26,7 +26,6 @@ public:
     void showBookNum();
     void showMemberNum();
     void showAuthorNum();
-//  void showCover();
 
 
 private slots:

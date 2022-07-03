@@ -1,7 +1,6 @@
 #include "digitallibrary.h"
 #include "ui_digitallibrary.h"
 #include "login.h"
-#include <signup.h>
 #include <managebooks.h>
 #include <manageauthors.h>
 #include <addmember.h>

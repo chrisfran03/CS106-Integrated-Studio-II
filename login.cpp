@@ -3,8 +3,6 @@
 #include <QMessageBox>
 #include <digitallibrary.h>
 #include <userwindow.h>
-//#include <signup.h>
-//#include <newpasswd.h>
 #include <QDebug>
 #include <QRegularExpression>
 #include <QRegularExpressionValidator>
@@ -36,34 +34,14 @@ void Login::on_loginButton_clicked()
     //Get the password
     QString password = ui->password->text();
 
-//    //Check if the db is opened
-//    if(!db.isOpen())
-//    {
-//        qDebug() << "Failed to open the database";
-//    }
 
-
-//    //Define the query
-//    auto query = QSqlQuery(db);
 
      //Database
 if(!username.isEmpty() & !password.isEmpty())
 {
     if(username=="admin" && password=="adminpassword")
     {
-//        //Create the body of the query
-//        QString checkLogin = {"SELECT * FROM accounts WHERE username='"
-//                              +username+"' AND password='"+password+"'"};
 
-//        if(query.exec(checkLogin))
-//        {
-//            int count = 0;
-//            while(query.next())
-//            {
-//                count++;
-//            }
-//            if(count == 1)
-//            {
                 lib.setUsername("admin");
 
                 //Hide the current window
@@ -80,22 +58,7 @@ if(!username.isEmpty() & !password.isEmpty())
 
 }
 
-//void Login::on_signUpButton_clicked()
-//{
-//    this->hide();
-//    signUp signUp;
-//    signUp.exec();
-//}
 
-//void Login::on_forgetPasswdBtn_clicked()
-//{
-//    this->hide();
-//    newPasswd newpass;
-//    newpass.exec();
-//    //Get the username
-
-//        QMessageBox::warning(this, "Empty", "Fields are empty!");
-//}
 
 void Login::setValidator()
 {

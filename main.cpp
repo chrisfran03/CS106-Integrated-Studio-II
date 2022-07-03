@@ -1,6 +1,4 @@
 #include "login.h"
-#include "signup.h"
-#include "newpasswd.h"
 #include "managebooks.h"
 #include "manageauthors.h"
 #include "addmember.h"
